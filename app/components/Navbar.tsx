@@ -21,9 +21,9 @@ const Navbar = () => {
           </div>
           {/* Primary Nav */}
           <div className="hidden md:flex items-center space-x-1">
-            <Link href="/case_status" className="py-5 px-3 text-gray-700 hover:text-gray-900">Check Case Status</Link>
-            <Link href="/services" className="py-5 px-3 text-gray-700 hover:text-gray-900">Services</Link>
-            <Link href="#contact-us" className="py-5 px-3 text-gray-700 hover:text-gray-900">Contact Us</Link>
+            <Link href="/case_status" className="py-5 px-3 text-xl  text-gray-800 hover:text-gray-900">Check Case Status</Link>
+            <Link href="/services" className="py-5 px-3 text-xl  text-gray-800 hover:text-gray-900">Services</Link>
+            <Link href="#contact-us" className="py-5 px-3 text-xl  text-gray-800 hover:text-gray-900">Contact Us</Link>
           </div>
           {/* Mobile Button */}
           <div className="md:hidden flex items-center">
@@ -37,8 +37,8 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
-        <a href="#" className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Check Case Status</a>
-        <a href="#" className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Services</a>
+        <a href="/case_status" className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Check Case Status</a>
+        <a href="/services" className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Services</a>
         <a href="#contact-us" className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Contact Us</a>
       </div>
     </nav>

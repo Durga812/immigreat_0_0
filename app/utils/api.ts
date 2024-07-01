@@ -18,7 +18,7 @@ export type CaseStatusResponse = {
   export const fetchCaseStatus = async (caseNum: string): Promise<CaseStatusResponse> => {
     const url = `https://api-int.uscis.gov/case-status/${caseNum}`;
     const headers = {
-      'Authorization': 'Bearer kJjSZeDhiGP0gcwVknnRb22xHf2O',
+      'Authorization': 'Bearer tvxC8qIgwEpEYyJNJiteXXmF4dK2',
       'Cookie': 'TS014337b4=01e429515683ffa36214ad035b8c6d68121ca40c5e9f9c322e767133e483b5927d6fb77b85dd7e19084fa932321e5a92729052c815'
     };
   

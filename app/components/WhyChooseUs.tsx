@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const WhyChooseUsSection = () => {
   return (
-    <div className="bg-white py-12">
+    <div className="bg-white px-4 py-4">
       <div className="container mx-auto px-4 md:px-10 lg:px-20">
         <h2 className="text-3xl font-bold text-gray-800 mb-2 relative">Why Choose Us?</h2>
         <div className="h-1 bg-gray-400 w-1/4 mb-6"></div> 
