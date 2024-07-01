@@ -21,9 +21,9 @@ const Navbar = () => {
           </div>
           {/* Primary Nav */}
           <div className="hidden md:flex items-center space-x-1">
-            <a href="/case_status" className="py-5 px-3 text-gray-700 hover:text-gray-900">Check Case Status</a>
-            <a href="/services" className="py-5 px-3 text-gray-700 hover:text-gray-900">Services</a>
-            <a href="#contact-us" className="py-5 px-3 text-gray-700 hover:text-gray-900">Contact Us</a>
+            <Link href="/case_status" className="py-5 px-3 text-gray-700 hover:text-gray-900">Check Case Status</Link>
+            <Link href="/services" className="py-5 px-3 text-gray-700 hover:text-gray-900">Services</Link>
+            <Link href="#contact-us" className="py-5 px-3 text-gray-700 hover:text-gray-900">Contact Us</Link>
           </div>
           {/* Mobile Button */}
           <div className="md:hidden flex items-center">
