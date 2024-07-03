@@ -37,9 +37,9 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden`}>
-        <a href="/case_status" className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Check Case Status</a>
-        <a href="/services" className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Services</a>
-        <a href="#contact-us" className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Contact Us</a>
+        <Link href="/case_status" className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Check Case Status</Link>
+        <Link href="/services" className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Services</Link>
+        <Link href="#contact-us" className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Contact Us</Link>
       </div>
     </nav>
   );
